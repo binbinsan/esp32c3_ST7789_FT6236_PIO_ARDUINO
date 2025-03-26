@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "F:/Diskup/Desktop/py/arduino/pingmu/lib/lvgl",
+    "cmake.sourceDirectory": "C:/Users/Administrator/Desktop/pio/esp32c3_ST7789_FT6236_PIO_ARDUINO/lib/Adafruit BusIO",
     "files.associations": {
         "cmath": "cpp"
     }

@@ -8,7 +8,7 @@
 #define _TFT_eSPI_ESP32H_
 
 #if !defined(DISABLE_ALL_LIBRARY_WARNINGS)
- #warning >>>>------>> DMA is not supported on the ESP32 C3 (possible future update)
+ //#warning >>>>------>> DMA is not supported on the ESP32 C3 (possible future update)
 #endif
 
 // Processor ID reported by getSetup()
@@ -33,7 +33,6 @@
   #ifndef REG_SPI_BASE
     #define REG_SPI_BASE(i) DR_REG_SPI2_BASE
   #endif
-
   // Fix ESP32C3 IDF bug for name change
   #ifndef SPI_MOSI_DLEN_REG
     #define SPI_MOSI_DLEN_REG(x) SPI_MS_DLEN_REG(x)
