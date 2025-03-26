@@ -32,9 +32,21 @@
   - GPIO2
   - GPIO3 (PWM亮度控制)
 
-### ESP32S3
-- I2C SDA: GPIO3
-- I2C SCL: GPIO2
+#### TFT SPI接口 (ESP32C3)
+- MOSI: GPIO7
+- SCLK: GPIO6
+- CS: GPIO10
+- DC: GPIO8
+- RST: GPIO9
+- BL: GPIO3 (背光控制，PWM)
+
+
+
+### 注意事项
+- TFT显示屏使用SPI通信
+- 背光控制使用PWM调节亮度
+- 请确保TFT_eSPI库中的引脚配置与实际接线一致
+- 建议使用屏蔽线连接SPI信号线，减少干扰
 
 ## 软件功能
 
