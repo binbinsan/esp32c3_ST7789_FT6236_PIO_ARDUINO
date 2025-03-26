@@ -33,13 +33,13 @@
   - GPIO3 (PWM亮度控制)
 
 #### TFT SPI接口 (ESP32C3)
--#define TFT_SCLK 2
--#define TFT_MOSI 3   // 修改为3，因为11可能有问题
--#define TFT_RST  10
--#define TFT_DC   6
--#define TFT_CS   7
--#define TFT_MISO -1  // 如果不需要读取显示屏，设为-1
--#define TFT_BL   9   // 修改为有效的GPIO
+- #define TFT_SCLK 2
+- #define TFT_MOSI 3   // 修改为3，因为11可能有问题
+- #define TFT_RST  10
+- #define TFT_DC   6
+- #define TFT_CS   7
+- #define TFT_MISO -1  // 如果不需要读取显示屏，设为-1
+- #define TFT_BL   9   // 修改为有效的GPIO
 
 
 
